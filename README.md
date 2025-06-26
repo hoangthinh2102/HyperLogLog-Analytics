@@ -11,11 +11,10 @@ A high-performance analytics service using HyperLogLog for processing large-scal
 - **Sample Data Generator**: Generate test data for development
 
 ### Installation
-yarn
+make build
 
 ## Running the Application
-yarn start:dev
-
+make up
 
 ### Process Existing File
 curl --location 'http://localhost:3000/analytics/generate-sample-logs' \
